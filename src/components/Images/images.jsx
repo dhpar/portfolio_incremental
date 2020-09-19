@@ -7,11 +7,11 @@ import styles from './images.module.css';
 // need to load (with the image extension) ie: <Images images="name.jpg" />
 
 export default props =>  {
-    const images = require.context('../../uploads/screenshots/companies/', true);
+    const imagesPath = require.context('../../uploads/screenshots/companies/', true);
     return props.images.map((image, index) => 
         <img 
             className={styles.image} 
-            src={image && images('./' + image)} 
+            src={image && imagesPath('./' + image)} 
             key={index} 
             alt={`${props.company}'s screenshot`} 
         />);

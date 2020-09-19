@@ -14,7 +14,7 @@
     font-weight: 900;
     text-transform: uppercase;
 }
-
+ 
 .description{
     direction: rtl;
     color: var(--main-bold);
