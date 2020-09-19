@@ -1,0 +1,178 @@
+{
+    "name": "David H. Parramon",
+    "job": "Front End Developer",
+    "personalDescription": "I am a Front-End Web Developer with experience in software quality assurance & engineering.\\n I have developed mobile applications for Android devices, with extensive focus on augmented realty and QR codes and have working knowledge of IOS programming", 
+    "experiences": [
+        {
+            "name": "Nerdery",
+            "website": "https://www.nerdery.com/",
+            "startDate": "10/2019",
+            "endDate": "04/2019",
+            "description": "Working for the Nerdery I had the oportunity to be part of a very experienced team as Front End Dev, our client spend a lot of resources mantaining several sites with similar content, our team implement Drupal as a CMT and implemented different features to provide a good user experience.",  
+            "tools": ["Drupal", "Jquery", "SASS", "Gulp"],
+            "logo": "./uploads/logos/Nerdery.svg",
+            "images": ["Nerdery-Purina.jpg"]
+        },
+        {
+            "name": "cxLoyalty",
+            "website": "http://cxloyalty.com/default.aspx",
+            "startDate": "03/2017",
+            "endDate": "Current",
+            "description": "At cxLoyalty, I started as part of the Front End Team working on developing and implementing solutions for the main loyalty integration product, focusing on the look and feel (styling and js code), during my period here I switched to different clients loyalty integrations and groups, such as Chase, Citi or US Bank, following an agile approach.  \\n Other focusses: Accessibility, build optimitzation and enhancement, progressive enhancement, general site performance, user analitics and client integration.",  
+            "tools": [ "SCSS", "CSS", "Styled components", "CSS Modules", "Backbone", "Underscore", "React", "Typescript", "Visual C#", "Jest", "Webpack", "Grunt", "Gulp", "TFS"],
+            "logo": "./uploads/logos/cxLoyalty-logo.png",
+            "images": []
+        },
+        {
+            "name": "Untoo",
+            "website": "http://www.untoo.com/home.html",
+            "startDate": "02/2013",
+            "endDate": "03/2017",
+            "description": "Collaborations as Freelance. Front-end development & consultant, Layout creation, Code development, Cross-browser & mobile device compatibility assurance.",
+            "tools": [ "SCSS", "Android", "Photoshop", "Illustrator", "After Effects", "3Dmax", "Vray"],
+            "logo": "",
+            "images": []
+        },
+        {
+            "name": "Grifols",
+            "website": "http://www.grifols.com/en/web/international/home",
+            "startDate": "10/2012",
+            "endDate": "12/2012",
+            "description": "Quality Assurance test developer, creating test cases telecomunication services.\\n My task was infrastructures valoration, individual test creation, documentation, creation of walkthrough for future references.",
+            "tools": [],
+            "logo": "",
+            "images": []
+        },
+        {
+            "name": "Schneider Electric",
+            "website": "https://www.schneider-electric.us/en/",
+            "startDate": "06/2011",
+            "endDate": "11/2011",
+            "description": "Full Stack Developer Server development and creation of a test-environment.",
+            "tools": ["OpenSuse", "Moodle", "PostgreSQL", "PHP", "Python", "Virtual Box", "Apache", "CSS"],
+            "logo": "",
+            "images": []
+        },
+        {
+            "name": "Roche",
+            "website": "https://www.roche.com/",
+            "startDate": "09/2010",
+            "endDate": "04/2011",
+            "description": "Quality Assurance Engineer at Roche Diagnostics Validation and testing in a low-error tolerance systems, documentation and error-reporting",
+            "tools": [],
+            "logo": "",
+            "images": []
+        },
+        {
+            "name": "Ajuntament de Barcelona",
+            "website": "https://www.barcelona.cat/en/",
+            "startDate": "09/2008",
+            "endDate": "09/2010",
+            "description": "Front-End Web Developer, semantic, cross-browser front-end code, Layout creation and code development, Web maintenance (including VIP web and an important home page)",
+            "tools": [ "css", "Javascript", "Jquery", "PHP"],
+            "logo": "",
+            "images": []
+        }
+    ],
+    "projects": [
+        {
+            "name": "Android QR app",
+            "client": "UPC - Universitat Politecnica de Catalunya (Catalonia Polytechnics University)",
+            "clientUrl": "http://www.upc.edu/?set_language=en",
+            "description": "Android app, created with the objective to make an extensive use of QR codes, databases and Android devices capabilities.\\n Scanning a QR code by the side of a determinate classroom in the university, the phone is able to tell, what class is being told at that moment, what teacher is in it, and what comes next.",
+            "images": [],
+            "links": [{
+                "Github": "https://github.com/Trifit/Aplicatiu_de_la_EETAC/"
+            }]
+        },
+        {
+            "name": "Stop Neonicotonoids Animation",
+            "client": "PAN Europe",
+            "clientUrl": "http://www.pan-europe.info/",
+            "description": "Animation created, designed and developed for a general audience to show the effects of Neonicotinoids (a new kind of pesticide) in the environment.\\n Software used: Adobe Illustrator, Adobe Photoshop and Adobe Afterefects.",
+            "videos": ["blob:https://www.youtube.com/f244f93f-5110-43c9-b141-64b0bfaba077"]
+        },
+        {
+            "name": "NAT (Nerdery Assessment test)",
+            "client": "The Nerdery",
+            "clientUrl": "http://www.nerdery.com/",
+            "description": "Web project with extensive use of standards, reusability, code and browser compatibility (IE8+, Firefox latest release, Chrome latest release and Safari latest release).\\n This will be a much larger site than a single page, and the code was written to be flexible and reusable throughout the site.\\n I did my best to create a Javascript/Jquery code that is as scalable, flexible, maintainable, semantic and accessible as possible.",
+            "images": [],
+            "links":[{
+                "Github": "https://github.com/Trifit/NAT"
+            }]
+        },
+        {
+            "name": "Capella web project",
+            "client": "Capella University",
+            "clientUrl": "http://www.capella.edu/",
+            "description": "In this project I had to create an interactive web App, using Javascript/Jquery/JqueryUI, that allows to sort a list (a number not determined) of Items in another part of the screen and check if that Items are correct.\\n It had to be easy to add/change/delete items for someone that doesn't have extensive knowledge of Javascript.",
+            "images": [],
+            "links":[{
+                "Github": "https://github.com/Trifit/List-webApp"
+            }]
+        },
+        {
+            "name": "Chefella",
+            "client": "Private client",
+            "clientUrl": "http://web.archive.org/web/20120817222939/http://chefella.com:80/",
+            "description": "Collaborations as Freelance. Front-end development & consultant, Layout creation, Code development, Cross-browser & mobile device compatibility assurance.",
+            "images": [],
+            "links": [{
+                "Github": "https://github.com/Trifit/Chef-Ella"
+            }]
+        },
+        {
+            "name": "Barcelona Home web Project",
+            "client": "Barcelona City website",
+            "clientUrl": "http://www.bcn.cat",
+            "description": "I had to build part of the landing page of Barcelona City according to a design provided (Nowadays the actual landing page has change with a new design)",
+            "images":[],
+            "links":[{
+                "Github": "https://github.com/Trifit/BCN-Draft"    
+            }]
+        },
+        {
+            "name": "NWHSU project",
+            "client": "Personal Client",
+            "description": "This was a rather diferent project, the objective: Create a animation to help students understand how 2 vertebreas moves and how it looks when there is a dislocation on them",
+            "videos":[
+                "https://07-lvl3-pdl.vimeocdn.com/01/3242/2/66211030/164643860.mp4?expires=1536459564&token=03c0f8cb4aeb163eb3d0d",
+                "https://08-lvl3-pdl.vimeocdn.com/01/3242/2/66211031/164643870.mp4?expires=1536459521&token=0022da960a78020efa41d",
+                "https://09-lvl3-pdl.vimeocdn.com/01/3242/2/66211032/164643443.mp4?expires=1536459490&token=028ec1c09a07b9dbe9077",
+                "https://10-lvl3-pdl.vimeocdn.com/01/3242/2/66211033/164643300.mp4?expires=1536458659&token=0dec0e6170120d986bd7f",
+                "https://11-lvl3-pdl.vimeocdn.com/01/3242/2/66211034/164647193.mp4?expires=1536459369&token=05aa4b479f2d3c011bc2a"
+            ]
+        }
+    ],
+    "Contacts":[
+        {
+            "name": "Github",
+            "url": "https://github.com/Trifit"
+        },
+        {
+            "name": "email",
+            "url": "mailto:davhern@gmail.com"
+        },
+        {
+            "name": "linkedln",
+            "url": "https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"
+        },
+        {
+            "name": "stackOvrflw",
+            "url": "http://stackoverflow.com/users/1012024/trifit"
+        },
+        {
+            "name": "Youtube",
+            "url": "https://www.youtube.com/user/trifit555/videos"
+        },
+        {
+            "name": "Vimeo",
+            "url": "https://vimeo.com/user7231150"
+        },
+        {
+            "name": "WordPress",
+            "url": "https://parramon.wordpress.com/"
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face{
+  font-family: 'Montserrat';
+  src: url(./uploads/fonts/Montserrat-Regular.ttf) format('truetype');
+}
+:root{
+  --main-bold: #black;
+  --main-bg: #dedede;
+  --main-pr: #ee7752;
+  --main-sc: #e73c7e;
+  --comp-pr: #23a6d5;
+  --comp-sc: #23d5ab;
+
+  --pri-sh: 0 8px 10px 1px rgba(0,0,0,0.24);
+  --sec-sh: 0 3px 14px 2px rgba(0,0,0,0.22);
+  --ter-sh: 0 5px 5px -3px rgba(0,0,0,0.30);
+
+  /* Redesign colors */
+  --main-bkg: #f6f8fa;
+  --shadow: 
+    0 12px 18px 2px rgba(34,0,51,.04),
+    0 6px 22px 4px rgba(7,48,114,.12),
+    0 6px 10px -4px rgba(14,13,26,.12);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 14px 32px;
+  max-width: 100%;
+  background: linear-gradient(-45deg, var(--main-pr), var(--main-sc), var(--comp-pr), var(--comp-sc));
+}
+
+h1{
+  font-size: 4.5rem;
+  color: var(--main-bold);
+  margin: 0 0 48px 0;
+}
+
+h2{
+  font-size: 3.375rem;
+  text-transform: uppercase;
+  font-family: Segoe UI;
+  font-weight: 300;
+  letter-spacing: 23px;
+  color: var(--main-bold);
+  opacity: 0.9;
+  border-top: 3px solid currentColor;
+  border-bottom: 3px solid currentColor;
+  padding: 32px 0;
+  margin: 0 0 32px 0;
+}
+
+h3{
+  text-transform: uppercase;
+  font-family: Segoe UI;
+  font-weight: 300;
+  font-size: 3.375rem;
+  letter-spacing: 23px;
+  margin: 0 0 48px 0; 
+}
+
+p{
+  font-size: 1rem;
+  margin: 0 0 16px 0;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+li, summary {
+  margin: 0 0 16px 0;
+}
+
+a{
+ color: var(--comp-pr);
+ text-decoration: none;
+ text-align: center;
+ box-sizing: border-box;
+ border-bottom: 2px solid transparent;
+ letter-spacing: 2px;
+}
+
+a:hover, a:focus{
+  border-bottom-color: currentColor;
+  color: var(--comp-sc);
+}
+
+
+:global(.logo) {
+  height: 80px;
+}
+
+.arrowHead:global{
+  fill:transparent;
+  stroke:var(--main-bold);
+  stroke-width:8;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}

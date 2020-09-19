@@ -1,0 +1,7 @@
+.arrowHead{
+    fill:transparent;
+    stroke:var(--main-bold);
+    stroke-width:8;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+}
