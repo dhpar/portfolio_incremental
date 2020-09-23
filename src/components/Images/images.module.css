@@ -3,3 +3,9 @@
     max-width: 250px;
     height: 100%;
 }
+
+.imagesContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    min-width: 0;
+}
