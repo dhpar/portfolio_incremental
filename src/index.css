@@ -13,6 +13,7 @@
   --main-sc: #e73c7e;
   --comp-pr: #23a6d5;
   --comp-sc: #23d5ab;
+  --transparency-7: rgba(0,0,0,0.7);
 
   --pri-sh: 0 8px 10px 1px rgba(0,0,0,0.24);
   --sec-sh: 0 3px 14px 2px rgba(0,0,0,0.22);

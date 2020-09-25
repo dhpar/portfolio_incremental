@@ -7,7 +7,7 @@
 
 .experienceList{
     display: grid;
-    grid-gap: 32px;
+    grid-gap: 16px 32px;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     min-width: 0;
 }
@@ -28,7 +28,7 @@
 
 
 .experience{
-    background: black;
+    background-color: var(--transparency-7);
     box-shadow: var(--pri-sh), var(--sec-sh), var(--ter-sh);
     padding: 32px;
     color: var(--main-pr);

@@ -11,6 +11,8 @@ export default props => {
                 {props.experience.map((company, index) => 
                     <li className={styles.experience} key={index}>
                         <header>
+                            <Images company={company.name} images={company.logo} type='logo'/>
+
                             <h4 className={styles.company}><a href={company.website}>{company.name}</a></h4>
                         </header>
 
@@ -23,7 +25,7 @@ export default props => {
                             </ul>
                         </details>
 
-                        <Images company={company.name} images={company.images}/>
+                        <Images company={company.name} images={company.images} type='screenshots'/>
                     </li>
                 )}
             </ul>

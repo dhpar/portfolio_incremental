@@ -10,7 +10,7 @@
             "endDate": "04/2019",
             "description": "Working for the Nerdery I had the oportunity to be part of a very experienced team as Front End Dev, our client spend a lot of resources mantaining several sites with similar content, our team implement Drupal as a CMT and implemented different features to provide a good user experience.",  
             "tools": ["Drupal", "Jquery", "SASS", "Gulp"],
-            "logo": "./uploads/logos/Nerdery.svg",
+            "logo": "Nerdery.svg",
             "images": ["Nerdery-Purina.jpg"]
         },
         {
@@ -20,7 +20,7 @@
             "endDate": "Current",
             "description": "At cxLoyalty, I started as part of the Front End Team working on developing and implementing solutions for the main loyalty integration product, focusing on the look and feel (styling and js code), during my period here I switched to different clients loyalty integrations and groups, such as Chase, Citi or US Bank, following an agile approach.  \\n Other focusses: Accessibility, build optimitzation and enhancement, progressive enhancement, general site performance, user analitics and client integration.",  
             "tools": [ "SCSS", "CSS", "Styled components", "CSS Modules", "Backbone", "Underscore", "React", "Typescript", "Visual C#", "Jest", "Webpack", "Grunt", "Gulp", "TFS"],
-            "logo": "./uploads/logos/cxLoyalty-logo.png",
+            "logo": "cxLoyalty.png",
             "images": []
         },
         {
