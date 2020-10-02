@@ -35,6 +35,17 @@
     overflow: hidden;
 }
 
-.NerderyLogo {
-    fill: white;
+.logowrapper {
+    background-color: lightgrey;
+    min-height: 500px;
+    max-width: 100%;
+}
+
+.logo {
+    max-height: 500px;
+    width: auto;
+}
+
+.screenshot{
+    
 }

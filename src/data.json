@@ -1,7 +1,7 @@
 {
     "name": "David H. Parramon",
     "job": "Front End Developer",
-    "personalDescription": "I am a Front-End Web Developer with experience in software quality assurance & engineering.\\n I have developed mobile applications for Android devices, with extensive focus on augmented realty and QR codes and have working knowledge of IOS programming.", 
+    "personalDescription": "I am an extroverted happy geek who loves to work as part of a team, yet self motivated to work independently and enjoys delving into code.", 
     "experiences": [
         {
             "name": "Nerdery",
@@ -11,7 +11,7 @@
             "description": "Working for the Nerdery I had the oportunity to be part of a very experienced team as Front End Dev, our client spend a lot of resources mantaining several sites with similar content, our team implement Drupal as a CMT and implemented different features to provide a good user experience.",  
             "tools": ["Drupal", "Jquery", "SASS", "Gulp"],
             "logo": "Nerdery.svg",
-            "images": ["Nerdery-Purina.jpg"]
+            "images": ["Nerdery/Nerdery-Purina.jpg", "Nerdery/NAT_snapshot.jpg"]
         },
         {
             "name": "cxLoyalty",
@@ -20,7 +20,7 @@
             "endDate": "Current",
             "description": "At cxLoyalty, I started as part of the Front End Team working on developing and implementing solutions for the main loyalty integration product, focusing on the look and feel (styling and js code), during my period here I switched to different clients loyalty integrations and groups, such as Chase, Citi or US Bank, following an agile approach.  \\n Other focusses: Accessibility, build optimitzation and enhancement, progressive enhancement, general site performance, user analitics and client integration.",  
             "tools": [ "SCSS", "CSS", "Styled components", "CSS Modules", "Backbone", "Underscore", "React", "Typescript", "Visual C#", "Jest", "Webpack", "Grunt", "Gulp", "TFS"],
-            "logo": "cxLoyalty.png",
+            "logo": "cxLoyalty.svg",
             "images": []
         },
         {
@@ -40,7 +40,7 @@
             "endDate": "12/2012",
             "description": "Quality Assurance test developer, creating test cases telecomunication services.\\n My task was infrastructures valoration, individual test creation, documentation, creation of walkthrough for future references.",
             "tools": [],
-            "logo": "",
+            "logo": "Grifols.svg",
             "images": []
         },
         {
@@ -50,7 +50,7 @@
             "endDate": "11/2011",
             "description": "Full Stack Developer Server development and creation of a test-environment.",
             "tools": ["OpenSuse", "Moodle", "PostgreSQL", "PHP", "Python", "Virtual Box", "Apache", "CSS"],
-            "logo": "",
+            "logo": "Schneider.svg",
             "images": []
         },
         {
@@ -60,7 +60,7 @@
             "endDate": "04/2011",
             "description": "Quality Assurance Engineer at Roche Diagnostics Validation and testing in a low-error tolerance systems, documentation and error-reporting",
             "tools": [],
-            "logo": "",
+            "logo": "Roche.svg",
             "images": []
         },
         {
@@ -70,7 +70,7 @@
             "endDate": "09/2010",
             "description": "Front-End Web Developer, semantic, cross-browser front-end code, Layout creation and code development, Web maintenance (including VIP web and an important home page)",
             "tools": [ "css", "Javascript", "Jquery", "PHP"],
-            "logo": "",
+            "logo": "Barcelona.svg",
             "images": []
         }
     ],
@@ -93,16 +93,6 @@
             "videos": ["blob:https://www.youtube.com/f244f93f-5110-43c9-b141-64b0bfaba077"]
         },
         {
-            "name": "NAT (Nerdery Assessment test)",
-            "client": "The Nerdery",
-            "clientUrl": "http://www.nerdery.com/",
-            "description": "Web project with extensive use of standards, reusability, code and browser compatibility (IE8+, Firefox latest release, Chrome latest release and Safari latest release).\\n This will be a much larger site than a single page, and the code was written to be flexible and reusable throughout the site.\\n I did my best to create a Javascript/Jquery code that is as scalable, flexible, maintainable, semantic and accessible as possible.",
-            "images": [],
-            "links":[{
-                "Github": "https://github.com/Trifit/NAT"
-            }]
-        },
-        {
             "name": "Capella web project",
             "client": "Capella University",
             "clientUrl": "http://www.capella.edu/",
@@ -120,16 +110,6 @@
             "images": [],
             "links": [{
                 "Github": "https://github.com/Trifit/Chef-Ella"
-            }]
-        },
-        {
-            "name": "Barcelona Home web Project",
-            "client": "Barcelona City website",
-            "clientUrl": "http://www.bcn.cat",
-            "description": "I had to build part of the landing page of Barcelona City according to a design provided (Nowadays the actual landing page has change with a new design)",
-            "images":[],
-            "links":[{
-                "Github": "https://github.com/Trifit/BCN-Draft"    
             }]
         },
         {

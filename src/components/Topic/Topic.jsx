@@ -12,7 +12,7 @@ export default props => {
                 return (
                 <article>
                     <h3>Some of my work</h3>
-                    <ul>
+                    <ul className={styles.projects}>
                     {obj.projects.map((project, index)=>
                         <Project project={project} key={index} />)}
                     </ul>    
