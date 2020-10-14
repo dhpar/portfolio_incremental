@@ -1,40 +1,42 @@
 import React from 'react';
 import Paragraphs from '../Paragraph/Paragraph';
-export default ({project: {name, clientUrl, client, description, images, videos}}) => {
-    const renderImages = ({imagesList}) => {
-        return (
-            <ul>
-                {imagesList.map((image, index)=>
-                    <li key={index}>
-                        <img src={window.location.href + "uploads/" + image} alt={name + " image " + index}/>
-                    </li>
-                )}
-            </ul>
-        )
-    };
-    const renderVideos = ({videosList}) => {
-        return (
-            <ul>
-                {videosList.map((video, index) =>
-                    <li key={index}>
-                        <video controls title={"video-" + index}>
-                            <source src={video} type="video/mp4"/>
-                        </video>
-                    </li>
-                )}
-            </ul>
-        );
-    }
+import styles from './Project.module.css';
+
+export default props => {
+    const YoutubeVideo = (youtubeId, title) => {
+        if(youtubeId.id !== undefined)
+            return (
+                <iframe 
+                    src={`https://www.youtube.com/embed/${youtubeId.id}`} 
+                    frameBorder="0" 
+                    allow="
+                        accelerometer; 
+                        autoplay; 
+                        clipboard-write; 
+                        encrypted-media; 
+                        gyroscope; 
+                        picture-in-picture" 
+                    allowFullScreen 
+                    title={title} />
+            );
+        return null;
+    }  
 
     return (
-        <li>
-            <h4>{name}</h4>
-            {clientUrl? 
-                <h5><a href={clientUrl}>{client}</a></h5> : <h5>{client}</h5>
-            }
-            <Paragraphs text={description} />
-            <renderImages imageList={images}/>
-            <renderVideos videosList={videos}/>
-        </li>
+        <article>
+            <h3>Some of my work</h3>
+            <ul className={styles.projects}>
+                {props.project.map((project, index)=> 
+                    <li key={index}>
+                        <h4>{project.name}</h4>
+                        {project.clientUrl? 
+                            <h5><a href={project.clientUrl}>{project.client}</a></h5> : <h5>{project.client}</h5>
+                        }
+                        <Paragraphs text={project.description} />
+                        <YoutubeVideo id={project.youtubeId} title={project.name} />
+                    </li>
+                )}
+            </ul>
+        </article>
     )
 }

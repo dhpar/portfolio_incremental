@@ -1,39 +1,40 @@
 import React from 'react';
 import styles from './App.module.css';
 import appObj from './data.json';
-import Topic from './components/Topic/Topic';
 import Paragraphs from './components/Paragraph/Paragraph.js';
+import Experience from './components/Experience/Experience';
+import Projects from './components/Project/Project';
+import Findme from './components/Findme/Findme';
 
-const App = () => {
+export default () => {
   const {
-    main: mainStyle, 
     intro: introStyle, 
     name: nameStyle, 
     job: jobStyle, 
     description: descriptionStyle, 
-    content: contentStyle
+    wrapper: wrapperStyle,
+    fullBleed: fullBleedStyle
   } = styles;
 
   const {
     name, 
     job, 
-    personalDescription
+    personalDescription,
+    experiences: experienceInfo,
+    projects: projectInfo,
+    Contacts: contactsInfo
   } = appObj;
-
+  
   return (
-    <div className={mainStyle}>
-      <header className={introStyle}>
+    <div className={wrapperStyle}>
+      <header className={introStyle + ' ' + fullBleedStyle}>
         <h1 className={nameStyle}>{name}</h1>
         <h2 className={jobStyle}>{job}</h2>
         <Paragraphs className={descriptionStyle} text={personalDescription}/>
       </header>
-      <section className={contentStyle}>
-          <Topic topic="experience" appObj={appObj}/>
-          <Topic topic="project" appObj={appObj}/>
-          <Topic topic="findme" appObj={appObj}/>
-      </section>
+      <Experience experience={experienceInfo} /> 
+      <Projects project={projectInfo} />
+      <Findme contacts={contactsInfo} />
     </div>
   );
 }
-
-export default App;

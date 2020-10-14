@@ -7,31 +7,17 @@ import React from 'react';
 // need to load (with the image extension) ie: <Images images="name.jpg" />
 
 export default ({images, company, type = null, className}) =>  {
-    let imagesPath = '';
-    let ImagesList = [];
-    switch(type) {
-        case 'logo':
-            imagesPath = require.context('../../uploads/logos/', true);
-            ImagesList = () => 
-                <img 
-                    className={className} 
-                    src={images && imagesPath('./' + images)} 
-                    alt={`${company}'s logo`} 
-                />;
-            break;
-        case 'screenshots':
-            imagesPath = require.context('../../uploads/screenshots/companies/', true);
-            ImagesList = () => images.map((image, index) => 
-                <img 
-                    className={className} 
-                    src={image && imagesPath('./' + image)} 
-                    key={index} 
-                    alt={`${company}'s screenshot`} 
-                />);
-            break;
-        default:
-            break;
-    }
+    const imagesPath = require.context('../../uploads/screenshots/companies/', true);
+    const ImagesList = () => images.map((image, index) => 
+        <picture key={index}>
+            {/* <source media="(max-width: 799px)" srcset="elva-480w.jpg" />
+            <source media="(min-width: 800px)" srcset="elva-800w.jpg" /> */}
+            <img 
+                className={className} 
+                src={image && imagesPath('./' + image)} 
+                alt={`${company}'s screenshot`} 
+            />
+        </picture>);
 
     return <ImagesList />
 }

@@ -106,14 +106,23 @@ a:hover, a:focus{
   height: 80px;
 }
 
-.arrowHead:global{
-  fill:transparent;
-  stroke:var(--main-bold);
-  stroke-width:8;
-  stroke-linecap:round;
-  stroke-linejoin:round;
-}
-
 summary {
   cursor: pointer;
+}
+
+:global(.wrapper) {
+  display: grid;
+  grid-template-columns:
+    1fr
+    min(65ch, 100%)
+    1fr;
+}
+
+:global(.wrapper > *) {
+  grid-column: 2;
+}
+
+:global(.full-bleed) {
+  width: 100%;
+  grid-column: 1 / 4;
 }

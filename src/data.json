@@ -10,7 +10,7 @@
             "endDate": "04/2019",
             "description": "Working for the Nerdery I had the oportunity to be part of a very experienced team as Front End Dev, our client spend a lot of resources mantaining several sites with similar content, our team implement Drupal as a CMT and implemented different features to provide a good user experience.",  
             "tools": ["Drupal", "Jquery", "SASS", "Gulp"],
-            "logo": "Nerdery.svg",
+            "logo": "Nerdery",
             "images": ["Nerdery/Nerdery-Purina.jpg", "Nerdery/NAT_snapshot.jpg"]
         },
         {
@@ -20,7 +20,7 @@
             "endDate": "Current",
             "description": "At cxLoyalty, I started as part of the Front End Team working on developing and implementing solutions for the main loyalty integration product, focusing on the look and feel (styling and js code), during my period here I switched to different clients loyalty integrations and groups, such as Chase, Citi or US Bank, following an agile approach.  \\n Other focusses: Accessibility, build optimitzation and enhancement, progressive enhancement, general site performance, user analitics and client integration.",  
             "tools": [ "SCSS", "CSS", "Styled components", "CSS Modules", "Backbone", "Underscore", "React", "Typescript", "Visual C#", "Jest", "Webpack", "Grunt", "Gulp", "TFS"],
-            "logo": "cxLoyalty.svg",
+            "logo": "cxLoyalty",
             "images": []
         },
         {
@@ -28,7 +28,7 @@
             "website": "http://www.untoo.com/home.html",
             "startDate": "02/2013",
             "endDate": "03/2017",
-            "description": "Collaborations as Freelance. Front-end development & consultant, Layout creation, Code development, Cross-browser & mobile device compatibility assurance.",
+            "description": "Collaborations as Freelance. Front End development & consultant, Layout creation, Code development, Cross-browser & mobile device compatibility assurance.",
             "tools": [ "SCSS", "Android", "Photoshop", "Illustrator", "After Effects", "3Dmax", "Vray"],
             "logo": "",
             "images": []
@@ -40,7 +40,7 @@
             "endDate": "12/2012",
             "description": "Quality Assurance test developer, creating test cases telecomunication services.\\n My task was infrastructures valoration, individual test creation, documentation, creation of walkthrough for future references.",
             "tools": [],
-            "logo": "Grifols.svg",
+            "logo": "Grifols",
             "images": []
         },
         {
@@ -50,7 +50,7 @@
             "endDate": "11/2011",
             "description": "Full Stack Developer Server development and creation of a test-environment.",
             "tools": ["OpenSuse", "Moodle", "PostgreSQL", "PHP", "Python", "Virtual Box", "Apache", "CSS"],
-            "logo": "Schneider.svg",
+            "logo": "Schneider",
             "images": []
         },
         {
@@ -60,7 +60,7 @@
             "endDate": "04/2011",
             "description": "Quality Assurance Engineer at Roche Diagnostics Validation and testing in a low-error tolerance systems, documentation and error-reporting",
             "tools": [],
-            "logo": "Roche.svg",
+            "logo": "Roche",
             "images": []
         },
         {
@@ -70,14 +70,14 @@
             "endDate": "09/2010",
             "description": "Front-End Web Developer, semantic, cross-browser front-end code, Layout creation and code development, Web maintenance (including VIP web and an important home page)",
             "tools": [ "css", "Javascript", "Jquery", "PHP"],
-            "logo": "Barcelona.svg",
+            "logo": "Barcelona",
             "images": []
         }
     ],
     "projects": [
         {
             "name": "Android QR app",
-            "client": "UPC - Universitat Politecnica de Catalunya (Catalonia Polytechnics University)",
+            "client": "UPC (Catalonia Polytechnics University)",
             "clientUrl": "http://www.upc.edu/?set_language=en",
             "description": "Android app, created with the objective to make an extensive use of QR codes, databases and Android devices capabilities.\\n Scanning a QR code by the side of a determinate classroom in the university, the phone is able to tell, what class is being told at that moment, what teacher is in it, and what comes next.",
             "images": [],
@@ -90,7 +90,7 @@
             "client": "PAN Europe",
             "clientUrl": "http://www.pan-europe.info/",
             "description": "Animation created, designed and developed for a general audience to show the effects of Neonicotinoids (a new kind of pesticide) in the environment.\\n Software used: Adobe Illustrator, Adobe Photoshop and Adobe Afterefects.",
-            "videos": ["blob:https://www.youtube.com/f244f93f-5110-43c9-b141-64b0bfaba077"]
+            "youtubeId": "2ToYb-gEWK8"
         },
         {
             "name": "Capella web project",
@@ -139,7 +139,7 @@
             "url": "https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"
         },
         {
-            "name": "stackOvrflw",
+            "name": "Stack Overflow",
             "url": "http://stackoverflow.com/users/1012024/trifit"
         },
         {
@@ -149,10 +149,6 @@
         {
             "name": "Vimeo",
             "url": "https://vimeo.com/user7231150"
-        },
-        {
-            "name": "WordPress",
-            "url": "https://parramon.wordpress.com/"
         }
     ]
 }
