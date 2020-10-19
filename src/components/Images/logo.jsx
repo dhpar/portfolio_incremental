@@ -11,21 +11,19 @@ export default ({ name, ...rest }) => {
         try {
           ImportedIconRef.current = (await import(`../../uploads/logos/${name}.svg`)).ReactComponent;
         } catch (err) {
-          // Your own error handling logic, throwing error for the sake of
-          // simplicity
           throw err;
         } finally {
           setLoading(false);
         }
       };
       importIcon();
-      }
-    }, [name]);
-  
-    if (!loading && ImportedIconRef.current) {
-      const { current: ImportedIcon } = ImportedIconRef;
-      return <ImportedIcon {...rest} />;
     }
-  
-    return null;
+  }, [name]);
+
+  if (!loading && ImportedIconRef.current) {
+    const { current: ImportedIcon } = ImportedIconRef;
+    return <ImportedIcon {...rest} />;
+  }
+
+  return null;
 };  

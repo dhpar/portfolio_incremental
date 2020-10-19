@@ -5,12 +5,12 @@ import Logo from '../Images/logo.jsx';
 import styles from './Experience.module.css';
 import appStyles from '../../App.module.css';
 
-export default props => 
+export default ({experience}) => 
 (
     <article className={appStyles.fullBleed}>
         <h3>Experience</h3>
         <ul className={styles.experienceList}>
-            {props.experience.map((company, index) => 
+            {experience.map((company, index) => 
                 <li className={styles.experience} key={index}>
                     <header>
                         <div className={styles.logowrapper}>

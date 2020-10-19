@@ -1,0 +1,16 @@
+.videoWrapper {
+    position: relative;
+    box-shadow: var(--pri-sh), var(--sec-sh), var(--ter-sh);
+}
+
+.videoWrapper::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
